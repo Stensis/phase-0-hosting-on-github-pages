@@ -1,5 +1,60 @@
-body{
-     margin: 0;
-     padding: 0%;
-     background-color: blue;
-}
+  body{
+      margin: 0;
+      padding: 0%;
+      background-color: #ffd900;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  header {
+      height: 100vh;
+      width: 100%;
+  }
+  
+  nav {
+      background: black;
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+  }
+  
+  .logo {
+      width: 20%;
+      padding-left: 50px;
+      color: white
+  }
+  
+  .list-items {
+      display: flex;
+      list-style: none;
+      width: 50%;
+      justify-content: space-around;
+  }
+  
+  .link {
+      text-decoration: none;
+      font-weight: bold;
+      color: #e1f0d2;
+      font-size: 15px;
+      transition: 0.4s;
+  }
+  
+  .link:hover {
+      color: #923764;
+  }
+  
+  .nav-btns {
+      width: 30%;
+      font-size: 20px;
+  }
+  
+  .btn-nav-i {
+      color: rgb(241, 235, 224);
+      float: right;
+      padding-right: 20px;
+      transition: 3s;
+  }
+  
+  .btn-nav-i:hover {
+      color: darkorange;
+  }
